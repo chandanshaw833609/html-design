@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="action.php">
+        <h1>Student Registration : </h1>
+        <p><b>Firstname </b><input type="text"></p>
+        <p><b>Lastname </b><input type="text"></p>
+        <p><b>Middlename </b><input type="text"></p>
+        <p><b>Course</b> : <select name="course" id="course 1">
+            <option value="select">select</option>
+            <option value="BCA">BCA</option>
+            <option value="BBA">BBA</option>
+            <option value="B TECH">BTECH</option>
+            <option value="MBA">MBA</option>
+            <option value="MCA">MCA</option>
+            <option value="M TECH">MTECH</option>
+        </select></p>
+        <p>
+            <b>Phone</b> : <input type="number" name="phone no" id="phone no 2">
+        </p>
+        <p>
+            <b>Gender : </b><br>
+            <label for="1">
+                <input type="radio" value="Male" name="Gender">Male
+            </label><br>
+            <label for="2">
+                <input type="radio" value="Female" name="Gender">Female
+            </label><br>
+            <label for="3">
+                <input type="radio" value="Others" name="Gender">Others
+            </label>
+        </p>
+        <p><b>Address</b> : <br><textarea cols="100" rows="7"></textarea></p>
+        <p><b>Email</b> : <input type="email"></p>
+        <p><b>Password</b> : <input type="password"></p>
+        <p><b>Retype-password</b> : <input type="password"></p>
+        <input type="submit">
+    </form>
+</body>
+</html>
