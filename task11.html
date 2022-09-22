@@ -5,60 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .course{
+            margin-left: 125px;
+        }
+        #BCA{
+            margin-left: 72px;
+        }
+        .address{
+            margin-left: 75px;
+        }
+    </style>
 </head>
 <body bgcolor="red">
     <form action="action.php">
         <p>
-            First Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text">&nbsp;(Max 50 characters Allowed)
+            First Name <input type="text" style="margin-left:60px">&nbsp;(Max 50 characters Allowed)
         </p>
-            Last Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text">&nbsp;(Max 50 characters Allowed)
+            Last Name <input type="text" style="margin-left:60px">&nbsp;(Max 50 characters Allowed)
         <p>
-            Email Id &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email">
-        </p>
-        <p>
-            Mobile No. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number">&nbsp;(10 digits allowed)
+            Email Id <input type="email" style="margin-left:75px">
         </p>
         <p>
-            Date of Birth &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" name="dob">
+            Mobile No. <input type="number" style="margin-left:55px">&nbsp;(10 digits allowed)
         </p>
         <p>
-            <span align="center">Address</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea  name="address" id="" cols="30" rows="10"></textarea>
+            Date of Birth <input type="date" name="dob" style="margin-left:45px">
         </p>
         <p>
-            City &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text">&nbsp;(Max 50 characters Allowed)
+            <span align="center">Address</span> <textarea  class="address" id="" cols="30" rows="10"></textarea>
         </p>
         <p>
-            Pincode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number">&nbsp;(Max 50 characters Allowed)
+            City <input type="text" style="margin-left:100px">&nbsp;(Max 50 characters Allowed)
         </p>
         <p>
-            State &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text">&nbsp;(Max 50 characters Allowed)
+            Pincode <input type="number" style="margin-left:75px">&nbsp;(Max 50 characters Allowed)
         </p>
         <p>
-            Country &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text">&nbsp;(Max 50 characters Allowed)
+            State <input type="text" style="margin-left:95px">&nbsp;(Max 50 characters Allowed)
         </p>
         <p>
-            Hobbies &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="hobbies" id="1">Drawing
+            Country <input type="text" style="margin-left:75px">&nbsp;(Max 50 characters Allowed)
+        </p>
+        <p>
+            Hobbies <input type="checkbox" name="hobbies" id="1" style="margin-left:70px">Drawing
             <input type="checkbox" name="hobbies" id="2">Singing
             <input type="checkbox" name="hobbies" id="3">Dancing
             <input type="checkbox" name="hobbies" id="4">Sketching <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="hobbies" id="5">Others <input type="text" name="others"> (Max 50 characters allowed)
+            <input type="checkbox" name="hobbies" id="5" style="margin-left:125px">Others <input type="text" name="others"> (Max 50 characters allowed)
         </p>
         <p>
-            Qualification &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="qualification" id="1">High School(10th) <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="qualification" id="2">Higher School(12th)<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="qualification" id="3">Graduation(Bachelors)<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="qualification" id="4">Post Graduation(Masters)<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="qualification" id="5">Phd
+            Qualification <input type="checkbox" name="qualification" id="1" style="margin-left:35px">High School(10th) <br>
+            <input type="checkbox" name="qualification" id="2" style="margin-left:125px">Higher School(12th)<br>
+            <input type="checkbox" name="qualification" id="3" style="margin-left:125px">Graduation(Bachelors)<br>
+            <input type="checkbox" name="qualification" id="4" style="margin-left:125px">Post Graduation(Masters)<br>
+            <input type="checkbox" name="qualification" id="5" style="margin-left:125px">Phd
         </p>
         <p>
-            Courses &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="course" id="1">BCA(Bachelors of Computer Application) <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="course" id="2">B.Com(Bachelors of Commerce) <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="course" id="3">B.Sc(Bachelors of Science) <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="course" id="4">BA(Bachelors of Arts) <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="course" id="5">MCA(Masters of Computer Application) <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="course" id="6">M.Com(Masters of Commerce) <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="course" id="7">M.Sc(Masters of Science) <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="course" id="8">MA(Masters of Arts) <br>
+            Courses<input type="radio" class="course" id="BCA">BCA(Bachelors of Computer Application) <br>
+            <input type="radio" class="course" id="2">B.Com(Bachelors of Commerce) <br>
+            <input type="radio" class="course" id="3">B.Sc(Bachelors of Science) <br>
+            <input type="radio" class="course" id="4">BA(Bachelors of Arts) <br>
+            <input type="radio" class="course" id="5">MCA(Masters of Computer Application) <br>
+            <input type="radio" class="course" id="6">M.Com(Masters of Commerce) <br>
+            <input type="radio" class="course" id="7">M.Sc(Masters of Science) <br>
+            <input type="radio" class="course" id="8">MA(Masters of Arts) <br>
         </p>
 
     </form>
