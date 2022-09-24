@@ -6,21 +6,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-   <h1>Mozilla is Cool</h1> 
-   <img src="https://images.techhive.com/images/article/2016/10/firefox-logo-100690302-large.jpg?auto=webp&quality=85,70" alt="mozilla image" height="200px">
-   <p><b>At Mozilla, we are the global community of </b></p>
-   <ul>
-    <li>Technology</li> 
-    <li>Thinkers</li>
-    <li>Builders</li>
-   </ul>
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequatur error sequi dolor natus, temporibus nesciunt pariatur enim nisi, impedit aspernatur ducimus repudiandae, omnis dignissimos rem a! Nisi, minima neque.
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quod aspernatur eos id cum est, perferendis architecto odio nihil officia cumque, nesciunt beatae saepe quia deleniti veniam provident autem neque! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus similique deleniti sit repudiandae, facilis omnis eligendi dolorum dignissimos ipsa esse! Illum ea quod nobis cumque maiores ratione! Doloribus, nisi dolorem.
-   </p>
-   <br>
-   <p>Lorem ipsum dolor <a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a> sit amet consectetur adipisicing elit. Quis consequatur error sequi dolor natus, temporibus nesciunt pariatur enim nisi, impedit aspernatur ducimus repudiandae, omnis dignissimos rem a! Nisi, minima neque.
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quod aspernatur eos id cum est, perferendis architecto odio nihil officia cumque, nesciunt beatae saepe quia deleniti veniam provident autem neque! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus similique deleniti sit repudiandae, facilis omnis eligendi dolorum dignissimos ipsa esse! Illum ea quod nobis cumque maiores ratione! Doloribus, nisi dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis iusto dolore, voluptate sapiente quae officia inventore sequi quasi fugiat laboriosam harum accusantium dolorem tempore? Cupiditate minima ipsam et quam eveniet. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia aliquam laudantium officiis magnam non similique? Sunt pariatur itaque a fuga dolorum saepe! Cupiditate eius minus delectus totam distinctio illo dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur adipisci consectetur, iusto ipsa excepturi minima dolor quo maiores dolorem, ab nisi itaque dolorum praesentium ipsam debitis illum molestias similique cupiditate?
-   </p>
+<body bgcolor="red" style="color:white ;">
+    <form action="action.php">
+        <table>
+            <tr>
+                <td width="25%">First Name</td>
+                <td><input type="text">&nbsp;(Max 50 characters are allowed</td>
+            </tr>
+            <tr>
+                <td width="25%">Last Name</td>
+                <td><input type="text">&nbsp;(Max 50 characters are allowed</td>
+            </tr>
+            <tr>
+                <td width="25%">Email Id</td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td width="25%">Mobile No.</td>
+                <td><input type="number">&nbsp;(Max 10 no are allowed)</td>
+            </tr>
+            <tr>
+                <td width="25%">Date of Birth</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td width="25%">Address</td>
+                <td><textarea cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td width="25%" >City</td>
+                <td><input type="text" placeholder="Kolkata">&nbsp;(Max 50 characters are allowed)</td>
+            </tr>
+            <tr>
+                <td width="25%">Pincode</td>
+                <td><input type="number">&nbsp;(Max 6 numbers are allowed)</td>
+            </tr>
+            <tr>
+                <td width="25%">State</td>
+                <td><input type="text" placeholder="West Bengal">&nbsp;(Max 50 characters are allowed)</td>
+            </tr>
+            <tr>
+                <td width="25%">Country</td>
+                <td><input type="text">&nbsp;(Max 50 characters are allowed)</td>
+            </tr>
+            <tr>
+                <td height="10px"></td>
+            </tr>
+            <tr>
+                <td width="30%">Hobbies</td>
+                <td>
+                    <input type="checkbox">Drawing &nbsp;
+                    <input type="checkbox">Singing &nbsp; 
+                    <input type="checkbox">Dancing &nbsp; 
+                    <input type="checkbox">Sketching
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" placeholder="Teacher">Others <input type="text" name="" id=""> &nbsp;(Max 50 characters are allowed)</td>
+            </tr>
+            <tr>
+                <td height="10px"></td>
+            </tr>
+            <tr>
+                <td>Qualification</td>
+                <td><input type="radio" name="qualification" id="">High School(10th)</td>
+            </tr>
+            <tr>
+                <td rowspan="4"></td>
+                <td><input type="radio" name="qualification" id="">Higher School(12th)</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="qualification" id="">Graduation(Bachelors)</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="qualification" id=""> Post Graduation(Masters)</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="qualification" id="">Phd</td>
+            </tr>
+            <tr>
+                <td height="15px"></td>
+            </tr>
+            <tr>
+                <td width="25%" rowspan="3"></td>
+                <td><input type="radio" name="course" id="">BCA(Bachelors of Computer Application)</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="course" id="">B.Com(Bachelors of Commerce) </td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="course" id="">B.Sc(Bachelors of Science)</td>
+            </tr>
+            <tr>
+                <td>Course</td>
+                <td><input type="radio" name="course" id="">B.Sc(Bachelors of Arts)</td>
+            </tr>
+
+            <tr>
+                <td>Applied for</td>
+                <td><input type="radio" name="course" id="">MCA(Masters of Computer Application)</td>
+            </tr>
+            <tr>
+                <td rowspan="3"></td>
+                <td><input type="radio" name="course" id="">M.Com(Masters of Commerce) </td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="course" id="">M.Sc(Masters of Science)</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="course" id="">MA(Masters of Arts)</td>
+            </tr>
+            <tr>
+                <td height="10px"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="button" value="Submit">
+                    <input type="button" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
 </body>
 </html>
