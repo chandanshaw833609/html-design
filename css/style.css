@@ -31,7 +31,7 @@
     float: left;
     border-bottom: 4px solid white;
     border-top: 4px solid white;
-    padding: 100px 0px 0px 25%;
+    padding: 100px 25% 0px 25%;
     }
 .sidebar{
     height: 200px;
@@ -41,7 +41,7 @@
     border-top: 4px solid white;
     border-bottom: 4px solid white;
     border-left: 4px solid white;
-    padding: 100px 0px 0px 15%;
+    padding: 100px 15% 0px 15%;
 }
 .content2{
     height: 200px;
@@ -54,7 +54,7 @@
     height: 200px;
     float: left;
     border-bottom: 4px solid white;
-    padding: 100px 0px 0px 25%;
+    padding: 100px 23% 0px 23%;
 }
 .twin2{
     background-color: orange;
@@ -62,7 +62,7 @@
     height: 200px;
     float: right;
     border-bottom: 4px solid white;
-    padding: 100px 0px 0px 25%;
+    padding: 100px 23% 0px 23%;
 }
 .footer{
     height: 100px;
