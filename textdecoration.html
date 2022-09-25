@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Poppins:wght@100;200&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Text Decoration</title>
+    <style>
+        .box{
+            width: 550px;
+            min-height: 150px;
+            border: 3px solid black;
+            margin: 10px auto 10px auto;
+            padding: 10px;
+            text-align: justify;
+            text-align-last: right;
+            background-color: transparent;
+            text-indent: 100px;
+            word-wrap: break-word;
+            white-space: wrap;
+            font-family: Roboto;
+            color: white;
+        }
+        .btn{
+            padding: 10px;
+            width: 150px;
+            height: 50px;
+            margin: 10px;
+            border: 3px solid black;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: grey;
+            background-attachment: scroll;
+        }
+        .btn-success{
+            padding: 10px;
+            width: 150px;
+            height: 50px;
+            margin: 10px;
+            border: 3px solid black;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: green;
+        }
+        .btn-warning{
+            padding: 10px;
+            width: 150px;
+            height: 50px;
+            margin: 10px;
+            border: 3px solid black;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: orange;
+        }
+        .btn-error{
+            padding: 10px;
+            width: 150px;
+            height: 50px;
+            margin: 10px;
+            border: 3px solid black;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: red;
+        }
+        h1{
+            letter-spacing: 10px;
+            text-decoration: underline;
+            text-decoration-color: red;
+            text-decoration: underline;
+            text-shadow: 5px 5px 5px red, 3px 3px 3px green, 5px 5px 5px blue;
+           
+        }
+        p{
+            word-spacing: 5px;
+        }
+        .boxx{
+            word-wrap: nowrap;
+            border: 3px solid black;
+            color: white;
+        }
+        th{
+            writing-mode: vertical-lr;
+            border: 1px solid black;
+            color: white;
+        }
+        .column{
+            border: 3px solid black;
+            column-count: 3;
+            column-gap: 50px;
+            column-rule: 2px solid brown;
+            color: white;
+        }
+        ul{
+            list-style-type: square;
+            list-style-position: outside;
+            border: 3px solid black;
+            list-style-image: url(imgage/im);
+            color: white;
+        }
+        body{
+            background-image: url('image.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        a:hover{
+            color: blanchedalmond;
+            font-size: 200%;
+        }
+        a{
+            color: rgb(188, 194, 29);
+        }
+        .clip{
+            border: 3px solid black;
+            background-clip: content-box;
+            color: white;
+            padding: 20px;
+            background:linear-gradient(to right, blue, green)
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Text Formatting</h1>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatibus dicta asperiores alias voluptates placeat aperiam nostrum amet reprehenderit eligendi rerum cumque aliquam explicabo accusamus laudantium beatae illo inventore deleniti id natus sed aspernatur, cum praesentium! Corporis, nisi, perspiciatis tempora facilis molestiae officiis aperiam, autem tenetur expedita enim mollitia. Iure hic unde architecto expedita dolores vero odio facilis natus eius molestias ullam quia nulla assumenda eligendi cumque fugit, maiores dolorem amet distinctio illo temporibus magni delectus, eveniet quasi? Et commodi consequatur eligendi ipsa error assumenda explicabo eius, modi quasi. Consequuntur fugit pariatur, temporibus placeat dignissimos saepe ex laborum nulla impedit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique maxime aspernatur facilis est sunt cumque, dolore iure rerum at repellendus recusandae, provident hic modi incidunt numquam, ipsa cum libero maiores?
+    </p>
+    </div>
+    <input type="button" value="submit" class="btn">
+    <input type="button" value="success" class="btn-success">
+    <input type="button" value="warning" class="btn-warning">
+    <input type="button" value="Error" class="btn-error">
+    <p class="boxx">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur corrupti et provident, quisquam dignissimos quaerat consequatur tenetur illum doloremque distinctio illo autem harum quia esse molestiae debitis? Voluptatibus, fuga vel!
+    </p>
+    <a href="#">readmore</a>
+    <table>
+        <tr>
+            <th>Hindi</th>
+            <th>English</th>
+        </tr>
+    </table>
+    <p class="column">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia totam optio quibusdam placeat odio ut ipsum aut dignissimos quae ad, voluptatem adipisci quod autem? Reprehenderit perspiciatis sequi optio commodi necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam et eaque ullam libero fugiat aliquam animi alias nihil? Rerum sequi velit voluptatum praesentium iusto odit non magnam harum molestias neque!
+    </p>
+    <ul>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Banana</li>
+    </ul>
+    <div class="clip">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quis dicta nemo est quibusdam doloribus similique voluptates eligendi autem ducimus, repellendus dolorem nam ad quisquam ea maiores veritatis iusto nobis ipsum reiciendis quae non minus eos! Quisquam sed minus nobis consequatur, nulla suscipit voluptatibus repellendus laborum dolorem officiis dicta molestiae aperiam impedit facilis nam aliquid corrupti, ut nesciunt quaerat ipsam quidem dolores sapiente accusamus! Illo autem beatae ab non repudiandae veniam sit quidem possimus doloremque iste magni aliquam, incidunt quasi debitis alias eligendi nam ipsum libero. Iusto, officia hic iste eaque, saepe quaerat ab voluptate autem quasi animi praesentium vel. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut sequi repellat iste aspernatur alias inventore incidunt quaerat cumque laborum blanditiis eos impedit officia rerum, eaque est repellendus facere corrupti minima sunt animi a. Doloremque veniam error nobis totam? Tenetur nulla at alias id! Quam nam quae illum saepe dicta cum quibusdam assumenda explicabo provident fugiat hic architecto totam, dolorum velit quasi nulla expedita. Error aliquam tenetur cum sapiente laudantium nobis excepturi optio ut! Aliquid qui eius, aut officiis nemo corrupti labore ad, natus tenetur aperiam voluptatibus! Sequi delectus eius eveniet at? Adipisci corporis cum tenetur atque molestias at unde fugit?
+    </div>
+</body>
+</html>
