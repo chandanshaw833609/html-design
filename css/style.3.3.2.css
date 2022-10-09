@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --primary-color: rgb(161, 176, 236);
+    --primary-font: Lexend;
+    --secondary-color: rgb(8,156,126);
+}
+.wrapper{
+    border: 2px solid black;
+    margin: 0px auto 10px auto;
+    width: 1140px;
+    font-family: var(--primary-font);
+}
+nav{
+    background-color: var(--primary-color);
+}
+nav>a{
+    float: left;
+    background-color: var(--primary-color);
+    padding: 10px 30px 10px 30px;
+    text-shadow: 2px 2px 2px black;
+    text-decoration: none;
+}
+nav>a:hover{
+    background-color: var(--secondary-color);
+}
+.nav-bar>ul>li{
+    float: right;
+    list-style: none;
+}
+.nav-bar>ul>li>a{
+    text-decoration: none;
+    color: white;
+    float: right;
+    padding: 10px 50px;
+}
+.nav-bar>ul>li>a:hover{
+    background-color: var(--secondary-color);
+}
+nav::after{
+    content: " ";
+    display: block;
+    clear: both;
+    *zoom: 1
+}
+.banner>img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    max-height: 450px;
+    object-fit: cover;
+}
+.services{
+    text-align: center;
+    width: 1140px;
+    min-height: 100px;
+}
+.col{
+    width: 350px;
+    float: left;
+    padding: 3px 3px;
+    margin-left: 20px;
+    border-right: 1px solid black;
+}
+.col:last-child{
+    border: none;
+}
+.services::after{
+    content: " ";
+    display: block;
+    clear: both;
+    *zoom: 1;
+}
+.customer{
+    text-align: center;
+    background-color: var(--primary-color);
+    border: 1px solid black;
+    min-height: 300px;
+}
+.customer>h1{
+      padding: 10px 0px 20px 0px;
+      color: white;
+}
+.customer>img{
+    width: 100px;
+    height: 100px;
+    border-radius: 80px;
+    border: 1px solid white;
+    object-fit: cover;
+}
+.customer>p{
+    padding: 20px 100px;
+    color: white;
+}
+.customer>a{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    text-decoration: none;
+    line-height: 70px;
+}
+.customer>a:hover{
+    color: black;
+    background-color: white;
+}
+.footer{
+    width: 1140px;
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
+.col>a{
+    background-color: var(--primary-color);
+    width: 150px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+    box-shadow: 4px 4px 4px black;
+    border-radius: 5px;
+}
+.col>a:hover{
+    background-color: black;
+    color: green;
+    box-shadow: 3px 3px 3px green;
+}
+.services>h1{
+    margin-bottom: 20px;
+}
+.col>img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    object-fit: cover;
+}

@@ -1,0 +1,110 @@
+*{
+    width: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 1140px;
+    margin: 10px 50px;
+}
+.header{
+    width: auto;
+    height: 80px;
+    background-color: rgb(250, 220, 220);
+}
+nav{
+    width: 1140px;
+    background-color: rgb(217, 251, 250);
+    height: 50px;
+}
+nav>a{
+    float: left;
+    text-decoration: none;
+    width: 200px;
+    padding: 15px 30px;
+}
+.nav-bar{
+    float: right;
+    width: 500px;
+    padding: 15px 30px;
+}
+.nav-bar>a{
+    text-decoration: none;
+    width: 200px;
+    padding: 0px 20px;
+}
+.nav-bar>a:first-child{
+    padding-left: 150px;
+}
+.content{
+    height: 500px;
+    width: 1140px;
+    background-color: rgb(212, 221, 236);
+}
+.main-content{
+    float: left;
+    width: 800px;
+    height: 500px;
+}
+.rightsidebar{
+    float: left;
+    width: 340px;
+    height: 500px;
+}
+.sub-content1{
+    height: 225px;
+    width: 760px;
+    border: 2px solid black;
+    margin: 20px;
+    margin-bottom: 5px;
+}
+.sub-content2{
+    height: 250px;
+    width: auto;
+}
+.sub-content2>h2{
+    height: 40px;
+    width: 760px;
+    margin-top: 0px;
+    border-bottom: 2px solid brown;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.col{
+    width: 180px;
+    height: 180px;
+    border: 2px solid black;
+    margin: 15px 40px;
+    float: left;
+    border-radius: 10px;
+}
+.rightsidebar>a{
+    width: 340px;
+    height: 50px;
+    background-color: rgb(101, 94, 223);
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    padding: 15px 0px 10px 20px;
+}
+.rightsidebar>p{
+    width: 340px;
+    padding: 20px 60px;
+    text-align: justify;
+    background-color: rgb(221, 249, 217);
+    height: 450px;
+    margin: 0px;
+}
+.footer{
+    height: 80px;
+    width: 1140px;
+    background-color: rgb(79, 118, 173);
+}
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: grey;
+}
+.wrapper{
+    height: 600px;
+    width: 80%;
+    margin: 10px 150px 10px 150px;
+    background-color: white;
+}
+.header{
+    height: 140px;
+    width: 100%;
+}
+.footer{
+    height: 30px;
+    width: 80%; 
+    background-color: black;
+}
+.nav{
+    height: 30px;
+    background-color: black;
+    padding: 20px 20px 10px 20px;
+}
+.nav>a{
+    color: white;
+    text-decoration-line: none;
+    padding: 20px 20px 10px 20px;
+}
+.content{
+    height: 400;
+    width: 80%;
+}
+.content1{
+    height: 200px;
+}
+.content2{
+    height: 200px;
+}
