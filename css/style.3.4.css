@@ -5,7 +5,7 @@
 }
 .wrapper{
     width: 1250px;
-    margin-left: 6px;
+    margin: 0px auto 10px auto;
 }
 .header{
     width: 1140px;
