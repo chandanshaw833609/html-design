@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 440px;
+    margin: 10px auto;
+    border: 1px solid black;
+    min-height: 50px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+.content{
+    width: 380px;
+    background-color: rgb(45, 62, 80);
+    border: 1px solid black;
+    min-height: 50px;
+    overflow: hidden;
+    float: left;
+}
+.image{
+    width: 120px;
+    float: left;
+    background-color: rgb(29, 41, 53);
+    clip-path: polygon(0 0, 70% 0%, 100% 13%, 100% 88%, 70% 100%, 30% 100%, 0 100%, 0 1%);
+    /* try this on for clip path : https://bennettfeely.com/clippy/ */
+    /* use the above website for making complex shapes in css */
+}
+.image>img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin: 50px 10px;
+    border: 5px solid orange;
+}
+
+.maincontent{
+    float: right;
+}
+.leftsidebar{
+    width: 50px;
+    float: left;
+    background-color: white;
+    margin: 15px 0px;
+}
+.leftsidebar>i{
+    display: block;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: orange;
+}
+.leftsidebar>i:first-child{
+    margin-bottom: 50px;
+}
+.information{
+    float: right;
+    width: 200px;
+    height: 150px;
+    margin-top: 15px;
+}
+.information>h1{
+    color: white;
+    margin-left: 10px;
+}
+.information>h1>p{
+    display: inline;
+    color: orange;
+}
+.information>h3{
+    color: white;
+    margin-bottom: 25px;
+    margin-left: 15px;
+}
+.information>p{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+.rightsidebar{
+    width: 50px;
+    float: left;
+    height: 150px;
+    background-color: white;
+    margin-top: 30px;
+}
+.rightsidebar>i{
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 24px;
+    color:rgb(45, 62, 80);
+    font-size: larger;
+}
