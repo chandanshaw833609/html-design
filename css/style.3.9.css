@@ -1,0 +1,181 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.wrapper{
+    display: grid;
+    padding: 0px 20px;
+    height: 100vh;
+    grid-template-rows: .4fr 2fr 1fr 1fr .8fr;
+    grid-template-columns: .4fr 1fr 1fr;
+    grid-template-areas: 
+     "header menu menu"
+     "hero hero hero"
+     "main main image"
+     "main main extra"
+     "banner banner banner";
+     grid-gap: 5px;
+     justify-content: center;
+}
+
+.header{
+    background-color: blueviolet;
+    grid-area: header;
+}
+
+.menu{
+    background-color: brown;
+    grid-area: menu;
+}
+
+.hero{
+    background-color: blue;
+    grid-area: hero;
+    transition: all 2s;
+}
+
+.main{
+    background-color: bisque;
+    grid-area: main;
+    /* transition: all 1s, background-color 2s; */
+}
+
+.image{
+    background-color: yellow;
+    grid-area: image;
+    /* transition: all 1s, background-color 2s; */
+}
+
+.extra{
+    background-color: lightgreen;
+    grid-area: extra;
+}
+
+.banner{
+    background-color: lightpink;
+    grid-area: banner;
+}
+
+/* .main:hover{
+    transform: scale(1.05);
+    background-color: rgb(89, 167, 231);
+} */
+/* .image:hover{
+    transform: scale(1.03);
+    background-color: rgb(95, 8, 95);
+} */
+
+@media only screen and (max-width:850px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    .wrapper{
+        display: grid;
+        grid-template-rows: .5fr 2fr 2fr 1fr 1fr;
+        grid-template-columns: 1fr 4fr 1fr;
+        grid-template-areas: 
+        "header header header"
+        "hero hero hero"
+        "menu main main"
+        "menu banner image"
+        "menu extra image";
+    }
+
+    .header{
+    background-color: blueviolet;
+    grid-area: header;
+}
+
+.menu{
+    background-color: brown;
+    grid-area: menu;
+}
+
+.hero{
+    background-color: blue;
+    grid-area: hero;
+    transition: all 2s;
+}
+
+.main{
+    background-color: bisque;
+    grid-area: main;
+    /* transition: all 1s, background-color 2s; */
+}
+
+.image{
+    background-color: yellow;
+    grid-area: image;
+    /* transition: all 1s, background-color 2s; */
+}
+
+.extra{
+    background-color: lightgreen;
+    grid-area: extra;
+}
+
+.banner{
+    background-color: lightpink;
+    grid-area: banner;
+}
+
+}
+@media only screen and (max-width:500px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    .wrapper{
+        display: grid;
+        grid-template-rows: .5fr .5fr 1.5fr 1.5fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "header"
+        "menu"
+        "hero"
+        "main"
+        "banner"
+        "extra"
+        "image";
+    }
+
+    .header{
+    background-color: blueviolet;
+    grid-area: header;
+}
+
+.menu{
+    background-color: brown;
+    grid-area: menu;
+}
+
+.hero{
+    background-color: blue;
+    grid-area: hero;
+    transition: all 2s;
+}
+
+.main{
+    background-color: bisque;
+    grid-area: main;
+    /* transition: all 1s, background-color 2s; */
+}
+
+.image{
+    background-color: yellow;
+    grid-area: image;
+    /* transition: all 1s, background-color 2s; */
+}
+
+.extra{
+    background-color: lightgreen;
+    grid-area: extra;
+}
+
+.banner{
+    background-color: lightpink;
+    grid-area: banner;
+}
+
+}
